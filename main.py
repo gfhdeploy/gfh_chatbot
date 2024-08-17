@@ -30,7 +30,7 @@ if "chat_history" not in st.session_state:
 
 
 # streamlit page title
-st.title("🦙 LLAMA 3.1. ChatBot")
+st.title("Chat with virtual Me")
 
 # display chat history
 for message in st.session_state.chat_history:
@@ -39,7 +39,7 @@ for message in st.session_state.chat_history:
 
 
 # input field for user's message:
-user_prompt = st.chat_input("Ask LLAMA...")
+user_prompt = st.chat_input("Ask a question..")
 
 
 hide_st_style = """

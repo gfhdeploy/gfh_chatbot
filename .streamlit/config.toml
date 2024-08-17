@@ -1,0 +1,12 @@
+[theme]
+
+base="dark"
+
+[client]
+
+showErrorDetails = false
+
+toolbarMode = "minimal"
+
+showSidebarNavigation = false
+

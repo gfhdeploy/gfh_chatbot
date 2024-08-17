@@ -14,6 +14,8 @@ st.set_page_config(
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 config_data = json.load(open(f"{working_dir}/config.json"))
+f = open('knowledge_base.txt', "r")
+knowledge = f.read()
 
 GROQ_API_KEY = config_data["GROQ_API_KEY"]
 
@@ -57,7 +59,7 @@ if user_prompt:
 
     # sens user's message to the LLM and get a response
     messages = [
-        {"role": "system", "content": "You are a helpful assistant"},
+        {"role": "system", "content": "You are the virtual version of Soufiane Hayou, and you have access to the following info "+knowledge},
         *st.session_state.chat_history
     ]
 

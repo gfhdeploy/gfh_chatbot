@@ -1,0 +1,187 @@
+Souﬁane
+HayouSimons Institute for the Theory of Computing, UC Berkeley
+Bhayou@berkeley.eduÍhttps://www.souﬁanehayou.com/
+Academic Experience
+Simons Institute, UC Berkeley Berkeley, United States
+Researcher 2023 – Current
+Member of the Collaboration on the Theoretical Foundations of Deep Learning.
+Developing the theory and practice of neural network scaling for both pretraining and ﬁnetuning.
+(Co)Inventor of Stable ResNet, Depth- mP and LoRA +.
+Hosted by Bin Yu and Peter Bartlett.
+National University of Singapore Singapore
+PTA Assistant Professor of Mathematics 2021 – Current
+Courses taught (Graduate level):
+{Principles of Machine Learning (DSA5105, 100+ students)
+{Advanced Topics in Machine Learning (DSA5202)
+University of Oxford Oxford, United Kingdom
+Class Tutor and Teaching Assistant 2018 – 2020
+{Advanced simulation methods (Undergraduate level)
+{Bayesian Inference and MCMC methods (Graduate level)
+Education
+University of Oxford Oxford, United Kingdom
+PhD in Statistics &Machine Learning. Advised by A. Doucet and J. Rousseau. 2017 – 2021
+Thesis : Wide Deep Neural Networks. Worked on the theory of large scale neural networks, and derived
+actionable recipes for neural network scaling.
+Pierre et Marie Curie University (Paris VI) Paris, France
+MSc. in Probability and Financial Mathematics with Distinction. 2016 – 2017
+Courses included stochastic calculus, stochastic control, portfolio optimization (Markowitz’s theory),
+point processes, high frequency trading, derivatives pricing.
+Ecole Polytechnique Paris, France
+MSc. in Applied Mathematics and Engineering Diploma with Distinction. 2013 – 2017
+Major courses: Markov chains, stochastic calculus and martingales, Fourier analysis,
+statistical analysis and model selection.
+Minor courses: macroeconomics, microeconomics, sociology, political science.
+Awards and Honours
+{2024: Gradient AI Fellowship
+{2023: Google Cloud TPU Credits Award
+{2023: Selected as a Rising Star in AI by KAUST
+{2022: Top Reviewer at NeurIPS
+{2022: SlowDNN Workshop Travel Grant
+{2021: Institute of Mathematical Science(NUS) Travel Award
+{2019: James Fund for Mathematics Travel Grant (One of two awarded campus-wide from over 100 applica-
+tions)
+{2019: ICML 2019 Student Travel Award{2018: Natixis Best Master Thesis in Quantitative Finance (One of two awarded from over 200 submissions)
+{2017 - 2021: ESPRC Fellowship Grant
+{2017 - 2021: RCUK Fellowship Grant (St John’s College)
+{2013 - 2017: Egide Grant (One of twenty awarded by the French Ministry of Foreign Affairs from over 1000
+applications)
+{2011: Maroc Telecom Excellence Grant (awarded to top 1% students in Morocco)
+{2011: Moroccan Government Excellence Scholarship
+Research
+Research Interests
+Main Research: I am currently working on the theory and practice of neural network scaling. I derive principled
+guidelines on how to scale width, depth, data, compute, hyperparameters etc, for both pretraining and ﬁne-
+tuning of foundation models (LLMs, LVMs etc). Currently, I am focusing on width/depth parametrization for
+pretraining and ﬁnetuning. More precisely, based on inﬁnite width/depth dynamics, my research characterizes
+the optimal choices of initialization and learning rate. Examples include Stable ResNet and Depth- mP (Tensor
+Programs VI) for pretraining, and LoRA +for ﬁnetuning large language models (LLMs).
+Broad Research Interests: In addition to my main research, I am broadly interested in the following topics:
+{Theory: Model and Data compression, Interplay between Neural Networks and Stochastic processes.
+{Applications: Privacy in Deep Learning models, Machine Learning for Healthcare, Machine Learning for
+Finance.
+Publications and Preprints
+GThe Impact of Initialization on LoRA Finetuning Dynamics . (submitted, 2024). Souﬁane Hayou, Nikhil Gosh,
+Bin Yu.
+GLoRA+: Efﬁcient Low Rank Adaptation of Large Models .International Conference on Machine Learning
+(ICML 2024) . Souﬁane Hayou, Nikhil Gosh, Bin Yu. (equal contribution).
+G !
+WD(II): Commutative Width and Depth Scaling in Deep Neural Networks . 2024. Accepted at Journal of Machine
+Learning Research (JMLR) . Souﬁane Hayou.
+GHow Bad is Training on Synthetic Data? A Statistical Analysis of Language Model Collapse .Conference on Lan-
+guage Modelling (COLM 2024) . Mohamed El Amine Seddik, Suei-Wen Chen, Souﬁane Hayou, Pierre
+Youssef, Merouane Debbah.
+GTensor Programs VI: Feature Learning in Inﬁnite Depth Neural Networks .International Conference on Learning
+Representations (ICLR 2024) . Greg Yang, Dingli Yu, Chen Zhu, Souﬁane Hayou.
+GLeave-one-out Distinguishability in Machine Learning .International Conference on Learning Representations
+(ICLR 2024) . Jiayuan Ye, Anastasia Borovykh, Souﬁane Hayou, Reza Shokri.
+G !
+WD(I): Width and Depth Limits commute in Residual Networks .International Conference on Machine Learn-
+ing (ICML 2023) . Souﬁane Hayou, Greg Yang.
+GData Pruning and Neural Scaling Laws: Fundamental Limitations of Score-based Algorithms .Transactions on
+Machine Learning Research (TMLR, 2023) . Fadhel Ayed, Souﬁane Hayou. (equal contribution, alpha-
+betical order).
+GOn the Inﬁnite-depth Limit of Finite-width Neural Networks .Transactions on Machine Learning Research
+(TMLR, 2022) . Souﬁane Hayou.GFeature Learning and Signal Propagation in Deep Neural Networks .International Conference on Machine
+Learning (ICML 2022, Spotlight presentation) . Yizhang Lou, Chris Mingard, Yoonsoo Nam, Souﬁane
+Hayou.
+GFrom Optimization Dynamics to Generalization Bounds via Lojasiewicz Gradient Inequality. Transactions on
+Machine Learning Research (TMLR, 2022) . Fusheng Liu, Qianxiao Li, Souﬁane Hayou, Haizhao Yang.
+GRegularization in ResNet with Stochastic Depth .Neural Information Processing Systems (NeurIPS 2021) .
+Souﬁane Hayou, Fadhel Ayed.
+GProbabilistic Fine-tuning of Pruning Masks and P AC-Bayes Self-bounded Learning . (2021, arXiv). Souﬁane Hayou,
+Bobby He, Gintare Karolina Dziugaite.
+GRobust Pruning at Initialization .International Conference on Learning Representations (ICLR 2021) . Souﬁ-
+ane Hayou, Jean-Francois Ton, Arnaud Doucet, Yee Whye Teh.
+GStable ResNet .The International Conference on Artiﬁcial Intelligence and Statistics (AISTATS 2021, Oral
+presentation) . Souﬁane Hayou, Eugenio Clerico, Bobby He, George Deligiannidis, Arnaud Doucet,
+Judith Rousseau. (equal contribution).
+GOn the Impact of the Activation function on Deep Neural Networks Training .International Conference on
+Machine Learning (ICML 2019) . Souﬁane Hayou, Arnaud Doucet, Judith Rousseau.
+GMean-ﬁeld Behaviour of Neural Tangent Kernel for Deep Neural Networks . (2020, submitted). Souﬁane Hayou,
+Arnaud Doucet, Judith Rousseau.
+!Workshop papers :
+GData Pruning and Neural Scaling Laws: Fundamental Limitations of Score-based Algorithms .ICML 2024 Work-
+shop on Data-Centric Machine Learning Research . Fadhel Ayed, Souﬁane Hayou. (equal contribution,
+alphabetical order). Full paper published at Transactions on Machine Learning Research (TMLR).
+GThe curse of (non)convexity: The case of an Optimization-Inspired Data Pruning algorithm .NeurIPS 2022 ICBINB
+workshop . Fadhel Ayed, Souﬁane Hayou.
+GThe Curse of Depth in Kernel Regime .NeurIPS 2021 ICBINB workshop (Spotlight) . Also published as part
+of workshop volume at Proceedings of Machine Learning Research (PMLR) . Souﬁane Hayou, Arnaud
+Doucet, Judith Rousseau.
+GStochastic Pruning: Fine-Tuning, and P AC-Bayes Bound Optimization .NeurIPS 2021 Bayesian Deep Learning
+Workshop . Souﬁane Hayou, Bobby He, Gintare Karolina Dziugaite.
+!Notes and Technical Reports :
+GOn the Connection Between Riemann Hypothesis and a Special Class of Neural Networks . (2023, arXiv). Souﬁane
+Hayou.
+GOn the Overestimation of the Largest Eigenvalue of a Covariance Matrix . (2017, Bloomberg). Souﬁane Hayou.
+GCleaning the Correlation Matrix with a Denoising AutoEncoder . (2017, Bloomberg). Souﬁane Hayou.
+Academic Services
+{Reviewing for conferences: NeurIPS, ICML, ICLR, AISTATS, UAI.
+{Reviewing for journals: Journal of Machine Learning Research, Transactions on Machine Learning Research,Journal of Computational and Graphical Statistics, Bernoulli.
+{Co-organizer: Machine Learning and its Applications (2022, Institute for Mathematical Science (NUS) and
+Simons Institute for the Theory of Computing), Deep learning reading group (2018-2020, Oxford statistics).
+Selected Talks
+{August 2024: Nvidia, San Francisco (Invited talk).
+{May 2024: ThinkAI Hackathon, UM6P , Morocco (Invited talk).
+{March 2024: AI Seminar, Uber, San Francisco (Invited talk).
+{February 2024: AI Seminar, MBZUAI, Abu Dhabi (Invited talk).
+{October 2023: MoDL Seminar, Simons Institute, UC Berkeley (Invited talk).
+{June 2023: FLAIR Seminar, EPFL, Switzerland (Invited talk).
+{May 2023: Morocco AI Webinar (Invited talk).
+{March 2023: Nvidia Research, Hong Kong (Invited talk).
+{February 2023: Rising Stars in AI Symposium. KAUST, Saudi Arabia (Invited talk).
+{February 2023: AI Seminar at TII, Abu Dhabi (Invited talk).
+{January 2023: One World Seminar Series on the Mathematics of Machine Learning (Invited talk).
+{December 2022: Computational and Methodological Statistics (CMStatistics 2022), London (Invited talk).
+{November 2022: Rough Paths Seminar, The Alan Turing Institute, London (Invited talk).
+{September 2022: 3rd Symposium on Machine Learning and Dynamical Systems, Fields Institute, Toronto
+(Invited talk).
+{May 2022: Abu Dhabi Stochastics Seminar, Department of Mathematics, NYU Abu Dhabi (Invited talk).
+{Feb 2022: CDSML Seminar Series, National University of Singapore (Invited talk).
+{Dec 2021: Seminar Series, Department of Statistics, University of Toronto (Invited talk).
+{Dec 2021: Spotlight talk at NeurIPS ICBINB workshop.
+{Dec 2020: Department of Mathematics, National University of Singapore (Invited talk).
+{Nov 2020: Department of Statistics, University of Oxford (Invited talk).
+Teaching
+Lecturer
+Principles of Machine Learning (DSA5105, graduate level, 100+ enrolled students)
+Department of Mathematics, NUS Semester 1, 2021-2022 &2022-2023
+Advanced Topics in Machine Learning (DSA5202, graduate)
+Department of Mathematics, NUS Semester 2, 2021-2022 &2022-2023
+Class Tutor and Teaching Assistant
+Advanced Simulation Methods (SC5, undergraduate)
+Department of Statistics, University of Oxford Hilary term, 2019-2020
+Bayesian Inference and MCMC methods (SC7, graduate)
+Department of Statistics, University of Oxford Hilary term, 2018-2019
+Other Professional Experience
+G-Research London, UK
+Quantitative Research Intern July 2019 – September 2019
+{Trained a neural network model to better estimate the correlation matrix
+{Built a neural network model for robust portfolio optimizationBloomberg LP New York, USA
+Quantitative Research Intern March 2017 – August 2017
+{Showed (provably) that the empirical correlation matrix overestimates the largest
+eigenvalue as the dimension of the problem grows (supervised by Bruno Dupire)
+{Built a Denoising Autoencoder model to ‘clean’ the spectrum of the correlation matrix
+J.P . Morgan London, UK
+Quantitative Research Intern April 2016 – September 2016
+{Calibrated a Stochastic model for interest rate products
+{Designed an Initial Margin pricer for interest rate swaps
+Kantox Barcelona, Spain
+Quantitative Research Intern June 2015 – September 2015
+{Optimized Margin requirements for FX forwards, a known ﬁnancial derivative
+widely traded in the FX market
+SNECMA Paris, France
+Part-time Research Intern September 2014 – April 2015
+{Optimized engine storage facilities using Queuing theory
+(SNECMA is a leading aircraft engine manufacturer)
+Technical Skills
+Coding
+{Python packages: Utils (Numpy, Scipy, Pandas, Seaborn etc.)
+{Deep Learning: PyTorch (6+ years), Tensorﬂow (4+ years), HuggingFace Transformers (2+ years), LangChain
+(1+ years)
+{Cloud Computing: AWS, Google Cloud
+{Distributed Training: Accelerate (HuggingFace)
+Languages
+{Moroccan: native
+{Arabic: native{French: bilingual
+{English: ﬂuent{Spanish: beginner

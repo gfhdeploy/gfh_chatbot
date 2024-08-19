@@ -65,8 +65,13 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     # sens user's message to the LLM and get a response
+
+    instruction= '''
+    You are the virtual assistant of Soufiane Hayou, you live in his realm. If asked about his personal information, 
+    say that you only have access to information about his professional life. If asked about contact information, only provide email address and website. You have access to the following info :\n
+    '''
     messages = [
-        {"role": "system", "content": "You are the virtual assistant of Soufiane Hayou, you live in his realm, and you have access to the following info :\n"+knowledge},
+        {"role": "system", "content": instruction+knowledge},
         *st.session_state.chat_history
     ]
 

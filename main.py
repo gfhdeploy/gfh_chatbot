@@ -7,8 +7,8 @@ from groq import Groq
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="SH's Virtual Assistant",
-    page_icon="🤖",
+    page_title="Gluten Free Harmonie AI Chatbot",
+    page_icon="🫒",
     layout="centered"
 )
 
@@ -31,7 +31,7 @@ if "chat_history" not in st.session_state:
 
 # streamlit page title
 #st.title("SH's Virtual Assistant :sunglasses:")
-st.subheader("SH's Virtual Assistant 🤖 :sunglasses:", divider="gray")
+st.subheader("Gluten Free Harmonie AI Chatbot 🫒", divider="gray")
 st.subheader("", divider=False)
 
 # display chat history
@@ -39,7 +39,7 @@ for message in st.session_state.chat_history:
     if message["role"]=='user':
         av = "💬"
     else:
-        av = "🤖"
+        av = "🫒"
     with st.chat_message(message["role"],avatar=av):
         st.markdown(message["content"])
 
@@ -67,8 +67,7 @@ if user_prompt:
     # sens user's message to the LLM and get a response
 
     instruction= '''
-    You are the virtual assistant of Soufiane Hayou, you live in his realm. If asked about his personal information, 
-    say that you only have access to information about his professional life. If asked about contact information, only provide email address and website. You have access to the following info :\n
+    You are a AI agent assisting the visitors of Gluten Free Harmonie, a website specialized in Gluten Free recipes with a Moroccan-Mediterranean inspiration. You live in the Gluten Free realm. You have access to the following info :\n
     '''
     messages = [
         {"role": "system", "content": instruction+knowledge},
@@ -84,6 +83,6 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "assistant", "content": assistant_response})
 
     # display the LLM's response
-    with st.chat_message("assistant", avatar="🤖"):
+    with st.chat_message("assistant", avatar="🫒"):
         st.markdown(assistant_response)
 

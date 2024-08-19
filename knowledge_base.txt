@@ -1,240 +1,612 @@
-Souﬁane Hayou
-Simons Institute for the Theory of Computing, UC Berkeley
-hayou@berkeley.edu
-https://www.souﬁanehayou.com/
+A Gluten-Free Twist on a Classic
 
-Academic Experience
+The English muffin, with its distinctive nooks and crannies, has been a breakfast staple for generations. Originating in the United States, despite its name, the English muffin quickly became a beloved accompaniment to meals, enjoyed toasted with butter and jam, or as the foundation for delectable sandwiches. Traditionally, English muffins are cooked on a griddle or skillet, resulting in a crisp exterior and a soft, tender interior.  
 
-Simons Institute, UC Berkeley Berkeley, United States
-Researcher 2023 – Current
-Member of the Collaboration on the Theoretical Foundations of Deep Learning.
-Developing the theory and practice of neural network scaling for both pretraining and ﬁnetuning.
-(Co)Inventor of Stable ResNet, Depth- mP and LoRA +.
-Hosted by Bin Yu and Peter Bartlett.
+The English muffin has long been a challenge for those following a gluten-free diet. Traditional methods often result in dense, flavorless alternatives that fail to capture the essence of the original. However, this recipe offers a groundbreaking approach, delivering a gluten-free English muffin that is as satisfying and delicious as its traditional counterpart. By carefully selecting gluten-free flours and optimizing the baking process, this muffin boasts a perfect balance of texture and taste. With a crispy exterior and a tender, airy interior, these muffins are a testament to the possibilities of gluten-free baking.
 
-National University of Singapore Singapore
-PTA Assistant Professor of Mathematics 2021 – Current
-Courses taught (Graduate level):
-{Principles of Machine Learning (DSA5105, 100+ students)
-{Advanced Topics in Machine Learning (DSA5202)
+Get ready to elevate your breakfast routine with these homemade gluten-free English muffins. Whether enjoyed toasted with butter and jam or as the foundation for your favorite breakfast sandwich, they're sure to become a new favorite.
+Picture
+Ingredients:
+Dry Ingredients:
+150 g Brown rice flour
+130 g Oat flour or sorghum flour
+170 g Tapioca starch or potato starch or corn starch 
+25 g Psyllium husk powder
+35 g Sugar of your choice or honey
+9 g Instant yeast (or 12 g active dry yeast)
+9 g Salt
+Cornflour or corn semolina for dusting (optional)
+Wet Ingredients:
+350-370 ml Warm water
+130 ml Warm milk 
+15 g Olive oil
+15 g Apple cider vinegar ​
 
-University of Oxford Oxford, United Kingdom
-Class Tutor and Teaching Assistant 2018 – 2020
-{Advanced simulation methods (Undergraduate level)
-{Bayesian Inference and MCMC methods (Graduate level)
+Instructions:
+Combine Dry Ingredients: In a large bowl, whisk together the rice flour, oat flour, tapioca starch, psyllium husk powder, sugar, salt, and yeast.
+Add Wet Ingredients: Gradually add the warm milk, then the olive oil, apple cider vinegar and warm water to the dry ingredients, mixing until a cohesive dough forms. The dough will be slightly sticky but not too much it should come off the sides of the mixing bowl. 
+Knead the Dough: Knead the dough for about 5-7 minutes, or until smooth. 
+Shape the Muffins: Divide the dough into 8 equal pieces. Shape each piece into a ball, then flatten slightly and bring all the edges towards the center like if you are closing something in. Then turn the dough seam-side down and roll it with your hand so as to seal tit and make a perfect spherical dough ball. Repeat for the rest of the dough balls. 
+Proofing: Place the shaped muffins on a lightly greased baking sheet, cover with a damp cloth, and let rise in a warm place for about 45-60 minutes, or until doubled in size.
+Cook the Muffins: Preheat a large skillet or cast iron pan over medium heat. Dust the risen muffins with cornflour or corn semolina. Cook each muffin for 8-10 minutes per side, or until golden brown and cooked through.
+Cool and Serve: Let the muffins cool fully before serving. This is a very crucial step as it allows the crumb to set. Otherwise, you will find them gummy on the interior and sticky. ​
 
-Education
-
-University of Oxford Oxford, United Kingdom
-PhD in Statistics &Machine Learning. Advised by A. Doucet and J. Rousseau. 2017 – 2021
-Thesis : Wide Deep Neural Networks. Worked on the theory of large scale neural networks, and derived
-actionable recipes for neural network scaling.
-
-Pierre et Marie Curie University (Paris VI) Paris, France
-MSc. in Probability and Financial Mathematics with Distinction. 2016 – 2017
-Courses included stochastic calculus, stochastic control, portfolio optimization (Markowitz’s theory),
-point processes, high frequency trading, derivatives pricing.
-
-Ecole Polytechnique Paris, France
-MSc. in Applied Mathematics and Engineering Diploma with Distinction. 2013 – 2017
-Major courses: Markov chains, stochastic calculus and martingales, Fourier analysis,
-statistical analysis and model selection.
-Minor courses: macroeconomics, microeconomics, sociology, political science.
-
-Awards and Honours
-
-{2024: Gradient AI Fellowship
-{2023: Google Cloud TPU Credits Award
-{2023: Selected as a Rising Star in AI by KAUST
-{2022: Top Reviewer at NeurIPS
-{2022: SlowDNN Workshop Travel Grant
-{2021: Institute of Mathematical Science(NUS) Travel Award
-{2019: James Fund for Mathematics Travel Grant (One of two awarded campus-wide from over 100 applica-
-tions)
-{2019: ICML 2019 Student Travel Award{2018: Natixis Best Master Thesis in Quantitative Finance (One of two awarded from over 200 submissions)
-{2017 - 2021: ESPRC Fellowship Grant
-{2017 - 2021: RCUK Fellowship Grant (St John’s College)
-{2013 - 2017: Egide Grant (One of twenty awarded by the French Ministry of Foreign Affairs from over 1000
-applications)
-{2011: Maroc Telecom Excellence Grant (awarded to top 1% students in Morocco)
-{2011: Moroccan Government Excellence Scholarship
-
-Research
-
-Research Interests
-
-Main Research: I am currently working on the theory and practice of neural network scaling. I derive principled
-guidelines on how to scale width, depth, data, compute, hyperparameters etc, for both pretraining and ﬁne-
-tuning of foundation models (LLMs, LVMs etc). Currently, I am focusing on width/depth parametrization for
-pretraining and ﬁnetuning. More precisely, based on inﬁnite width/depth dynamics, my research characterizes
-the optimal choices of initialization and learning rate. Examples include Stable ResNet and Depth- mP (Tensor
-Programs VI) for pretraining, and LoRA +for ﬁnetuning large language models (LLMs).
-Broad Research Interests: In addition to my main research, I am broadly interested in the following topics:
-{Theory: Model and Data compression, Interplay between Neural Networks and Stochastic processes.
-{Applications: Privacy in Deep Learning models, Machine Learning for Healthcare, Machine Learning for
-Finance.
-
-Publications and Preprints
-
-The Impact of Initialization on LoRA Finetuning Dynamics . (submitted, 2024). Souﬁane Hayou, Nikhil Gosh,
-Bin Yu.
-
-LoRA+: Efﬁcient Low Rank Adaptation of Large Models .International Conference on Machine Learning
-(ICML 2024) . Souﬁane Hayou, Nikhil Gosh, Bin Yu. (equal contribution).
+​Tip: For the perfect english muffin split, gently poke the middle with a fork all around. This technique preserves the iconic nooks and crannies, enhancing your experience (See video below).
 
 
-WD(II): Commutative Width and Depth Scaling in Deep Neural Networks . 2024. Accepted at Journal of Machine
-Learning Research (JMLR) . Souﬁane Hayou.
+Storage:
+Store leftover muffins in an airtight container at room temperature for up to 2-3 days or in the fridge. I like to freeze them and reheat them when I want. I find that freezing them maintains the best texture and freshness when reheated. 
 
-How Bad is Training on Synthetic Data? A Statistical Analysis of Language Model Collapse .Conference on Lan-
-guage Modelling (COLM 2024) . Mohamed El Amine Seddik, Suei-Wen Chen, Souﬁane Hayou, Pierre
-Youssef, Merouane Debbah.
+Serving Suggestions:
+These gluten-free English muffins are perfect for breakfast, brunch, or a quick snack. Enjoy them toasted with butter and jam, or as the base for your favorite sandwich. They also pair well with soups and stews. Basically anything that needs a toasted piece of bread! They are delicious!
 
-Tensor Programs VI: Feature Learning in Inﬁnite Depth Neural Networks .International Conference on Learning
-Representations (ICLR 2024) . Greg Yang, Dingli Yu, Chen Zhu, Souﬁane Hayou.
+Reheating:
+To reheat, split the muffin in half and toast it in a toaster or oven until warmed through and crispy. If frozen, defrost and then split in half. If you don't wish to split it, you can simply reheat it whole. 
 
-Leave-one-out Distinguishability in Machine Learning .International Conference on Learning Representations
-(ICLR 2024) . Jiayuan Ye, Anastasia Borovykh, Souﬁane Hayou, Reza Shokri.
- !
+By following these steps, you'll create delicious gluten-free English muffins that rival their traditional counterparts! Let me know in the comments what you think of this recipe 🥰
+​
+0 Comments
+The Ultimate Gluten Free Bagels (NO Boiling)
+9/8/20240 Comments
+ 
+Picture
+For those of us with gluten sensitivities, the classic bagel has often seemed out of reach. Traditional bagel-making methods, relying on boiling and specific flour blends, can be challenging to replicate in a gluten-free context. However, this recipe offers a refreshing approach, delivering a delicious and authentic bagel experience without the complexities of traditional methods.
 
-WD(I): Width and Depth Limits commute in Residual Networks .International Conference on Machine Learn-
-ing (ICML 2023) . Souﬁane Hayou, Greg Yang.
+By eliminating the boiling step, we've streamlined the process while maintaining the essential characteristics of a great bagel: a crisp exterior and a chewy, flavorful interior. Our focus on a well-developed gluten-free dough, combined with careful baking, ensures a bagel that rivals its gluten-filled counterpart.
 
-Data Pruning and Neural Scaling Laws: Fundamental Limitations of Score-based Algorithms .Transactions on
-Machine Learning Research (TMLR, 2023) . Fadhel Ayed, Souﬁane Hayou. (equal contribution, alpha-
-betical order).
+Get ready to elevate your breakfast routine with these homemade gluten-free bagels. Whether enjoyed with cream cheese and smoked salmon or piled high with your favorite toppings, they're a satisfying and delicious treat.
+Picture
+Ingredients:
+Dry Ingredients:
+1.5 cups Rice Flour or Millet Flour
+1.5 cups Oat Flour or Sorghum Flour
+1.5 cups Tapioca Starch or Potato Starch
+1.5 tsp Instant Yeast
+3 tsp Psyllium Husk Powder
+1 tsp Salt
+2 tsp Sugar
+1 tbsp Olive Oil
+For Coating:
+2 cups Sesame Seeds (or other seeds of your choice)
+3 tbsp Pomegranate or Grape Molasses
+6 tbsp Water
 
-On the Inﬁnite-depth Limit of Finite-width Neural Networks .Transactions on Machine Learning Research
-(TMLR, 2022) . Souﬁane Hayou.
-
-Feature Learning and Signal Propagation in Deep Neural Networks .International Conference on Machine
-Learning (ICML 2022, Spotlight presentation) . Yizhang Lou, Chris Mingard, Yoonsoo Nam, Souﬁane
-Hayou.
-
-From Optimization Dynamics to Generalization Bounds via Lojasiewicz Gradient Inequality. Transactions on
-Machine Learning Research (TMLR, 2022) . Fusheng Liu, Qianxiao Li, Souﬁane Hayou, Haizhao Yang.
-
-Regularization in ResNet with Stochastic Depth .Neural Information Processing Systems (NeurIPS 2021) .
-Souﬁane Hayou, Fadhel Ayed.
-
-Probabilistic Fine-tuning of Pruning Masks and P AC-Bayes Self-bounded Learning . (2021, arXiv). Souﬁane Hayou,
-Bobby He, Gintare Karolina Dziugaite.
-
-Robust Pruning at Initialization .International Conference on Learning Representations (ICLR 2021) . Souﬁ-
-ane Hayou, Jean-Francois Ton, Arnaud Doucet, Yee Whye Teh.
-
-Stable ResNet .The International Conference on Artiﬁcial Intelligence and Statistics (AISTATS 2021, Oral
-presentation) . Souﬁane Hayou, Eugenio Clerico, Bobby He, George Deligiannidis, Arnaud Doucet,
-Judith Rousseau. (equal contribution).
-
-On the Impact of the Activation function on Deep Neural Networks Training .International Conference on
-Machine Learning (ICML 2019) . Souﬁane Hayou, Arnaud Doucet, Judith Rousseau.
-
-Mean-ﬁeld Behaviour of Neural Tangent Kernel for Deep Neural Networks . (2020, submitted). Souﬁane Hayou,
-Arnaud Doucet, Judith Rousseau.
+Instructions:
+Combine Dry Ingredients: In a large bowl, whisk together the rice flour, oat flour, tapioca starch, instant yeast, psyllium husk powder, salt, and sugar.
+Add Wet Ingredients: In a separate bowl, combine the warm water and olive oil. Gradually add the wet ingredients to the dry ingredients, mixing until a cohesive dough forms. The dough will be sticky.
+Knead the Dough: Transfer the dough to a lightly floured surface and knead for about 5-7 minutes, or until smooth and elastic.
+Shape the Bagels: Divide the dough into 6-8 equal pieces. Shape each piece into a smooth ball, then create a hole in the center using your thumb or a dough cutter.
+First Rise: Place the bagels on a baking sheet lined with parchment paper, cover with a damp cloth, and let rise in a warm place for about 45-60 minutes, or until doubled in size.
+Prepare the Coating: In a small bowl, combine the pomegranate molasses or grape molasses with water.
+Coat: After they have proofed, brush each bagel with the molasses mixture and your favorite seeds or topping.
+Bake: Preheat your oven to 400°F (204°C). Bake the bagels for 30-35 minutes, or until golden brown and cooked through.
+Cool and Enjoy: Let the bagels cool completely on a wire rack before slicing and enjoying.​
 
 
-Workshop papers :
+Tips:
+Experiment with different toppings like poppy seeds, onion flakes, or everything bagel seasoning.
+Store bagels in an airtight container at room temperature for up to 2-3 days.
 
-Data Pruning and Neural Scaling Laws: Fundamental Limitations of Score-based Algorithms .ICML 2024 Work-
-shop on Data-Centric Machine Learning Research . Fadhel Ayed, Souﬁane Hayou. (equal contribution,
-alphabetical order). Full paper published at Transactions on Machine Learning Research (TMLR).
+These gluten-free bagels are a delicious and satisfying alternative to traditional bagels. Enjoy them with your favorite cream cheese, lox, or avocado for a truly delightful breakfast or brunch.
+0 Comments
+Chocolate-Stuffed Gluten Free Marbled Muffins
+29/7/20240 Comments
+ 
+Picture
+​Gluten-Free Marbled Muffins: A Decadent Delight
 
-The curse of (non)convexity: The case of an Optimization-Inspired Data Pruning algorithm .NeurIPS 2022 ICBINB
-workshop . Fadhel Ayed, Souﬁane Hayou.
+Imagine sinking your teeth into a fluffy muffin, revealing a swirl of rich chocolate and a tender vanilla crumb. This gluten-free marbled muffin recipe brings that dream to life. With a perfect balance of flavors and textures, these muffins are a true indulgence. The secret to the stunning marbled effect lies in the alternating layers of vanilla and chocolate batter. As they bake, the two flavors blend together, creating a beautiful and delicious swirl. The addition of a melted chocolate center adds an extra layer of decadence, making these muffins irresistible.
 
-The Curse of Depth in Kernel Regime .NeurIPS 2021 ICBINB workshop (Spotlight) . Also published as part
-of workshop volume at Proceedings of Machine Learning Research (PMLR) . Souﬁane Hayou, Arnaud
-Doucet, Judith Rousseau.
+​Let's get baking!
 
-Stochastic Pruning: Fine-Tuning, and P AC-Bayes Bound Optimization .NeurIPS 2021 Bayesian Deep Learning
-Workshop . Souﬁane Hayou, Bobby He, Gintare Karolina Dziugaite.
+Ingredient List for 12 Muffins:
+
+Dry Ingredients:
+200 g Rice flour
+150 g Tapioca starch or other starch of choice
+50 g Corn flour
+50 g Almond flour
+350 g Sugar
+2 tsp Baking powder
+1 tsp Baking soda
+1 tsp Xanthan gum
+40 g Cacao powder
+Pinch of salt
+Wet Ingredients:
+250 g Soft butter
+4 Eggs
+2 tsp Vanilla extract
+70 ml Milk of choice (dairy or plant-based) or Yogurt of choice 
+Chopped chocolate of your choice (for filling)​
+Picture
+Instructions:
+Prepare the Pans: Preheat your oven to 180°C (350°F). Line a muffin tin with paper liners.
+Combine Dry + Butter: In a large bowl, whisk together the rice flour, tapioca starch, corn flour, almond flour, baking powder, baking soda, xanthan gum, and salt. Add butter to your dry ingredients and, with your hands, work it into the flours creating a crumbly batter that resembles breadcrumbs. This will make the muffins airier. 
+Mix the Wet Ingredients : In a separate bowl, mix together the sugar and the eggs one at a time, followed by the vanilla extract. Now add your milk/yogurt and mix well. 
+Combine Wet and Dry Ingredients: Add the wet ingredients into the dry mixing until just combined. Be careful not to overmix.
+Create the Chocolate Batter: In a separate bowl, combine half of the batter with the cacao powder and mix well to create the chocolate batter.
+Assemble the Muffins: Spoon alternating dollops of vanilla and chocolate batter into the prepared muffin liners, filling them about halfway. Drop a few chocolate chips into the center of each muffin. Continue layering the batters until the muffin cups are almost full.
+Bake: Bake the muffins for 20-25 minutes, or until a toothpick inserted into the center comes out clean.
+Cool and Enjoy: Let the muffins cool in the muffin tin for a few minutes before transferring them to a wire rack to cool completely. Serve warm with a dollop of whipped cream or ice cream, if desired.​
+
+Tips for Success:
+Use room temperature ingredients for optimal results.
+Don't overmix the batter to prevent tough muffins.
+For a richer flavor, use high-quality chocolate chips.
+Experiment with different fillings, such as chopped nuts or fruit.
+
+​Storing and Reheating Your Marbled Muffins
+
+Storing:
+For optimal freshness, store your muffins in an airtight container at room temperature for up to 2-3 days.
+
+Reheating:
+To enjoy your muffins warm, you can:
+Microwave: Wrap the muffin in a damp paper towel and heat on high for about 30 seconds, or until warmed through.
+Oven: Wrap the muffin in foil and reheat in a preheated oven at 350°F (175°C) for about 5-10 minutes, or until heated through. Avoid over-reheating, as this can dry out the muffins.
+
+These gluten-free marbled muffins are a delicious and impressive treat that will satisfy your sweet tooth.
+
+Enjoy!
+0 Comments
+Soft Gluten Free Brioche Burger Buns
+24/7/20240 Comments
+ 
+Picture
+Indulge in the Ultimate Gluten-Free Burger Experience
+
+Tired of soggy, subpar burger buns and lettuce-wrapped burgers? It's time to elevate your burger game with these homemade gluten-free brioche buns. Soft, pillowy, and bursting with flavor, these buns are the perfect foundation for your favorite burger creations. Unlike traditional gluten-free bread, these brioche-style buns are enriched with milk, eggs, and butter, resulting in a luxurious texture that rivals their gluten-filled counterparts. The combination of rice flour, tapioca starch, and corn flour creates a tender crumb and a slightly sweet taste, making them a delightful accompaniment to savory fillings.
+
+These buns are incredibly versatile and can be enjoyed with a variety of fillings, from classic burgers and hot dogs to pulled or grilled chicken sandwiches. Their soft and slightly sweet flavor complements a wide range of toppings, making them a delightful addition to any meal.
+
+​What Makes These Gluten-Free Brioche Buns Special:
+Enriched Dough: The addition of milk, eggs, and butter creates a rich, tender, and indulgent texture, reminiscent of traditional brioche.
+Perfect Balance of Flours: The combination of rice flour, tapioca starch, and corn flour ensures a soft and slightly sweet crumb.
+No Psyllium Husk Needed: Unlike many gluten-free bread recipes, these buns achieve their structure and texture without relying on psyllium husk.
+Versatility: Perfect for burgers, sandwiches, or simply enjoyed on their own.
+Easy to Make: The simple method and minimal ingredients make this recipe accessible to bakers of all levels.
+Picture
+Ingredients for 8 Burger Buns:
+
+For the Buns:
+Dry Ingredients:
+210 g Rice flour or oat flour
+80 g Tapioca starch or other starch of your choice
+25 g Corn flour
+8 g Instant yeast or active dry yeast
+1 tsp Xanthan gum
+3 tsp Sugar of your choice or honey
+1.5 tsp Salt
+Wet Ingredients:
+320 ml Warm milk of choice
+2 Eggs
+1 tbsp Apple cider vinegar
+80 g Melted butter
+
+For Topping:
+1 Beaten Egg (for egg wash)
+Toasted Sesame Seeds (optional)
+30 g Melted Butter (for brushing after baking)
+
+Instructions:
+Combine Dry Ingredients: In a large bowl, whisk together the rice flour, tapioca starch, corn flour, instant yeast, xanthan gum, sugar, and salt.
+Prepare Wet Ingredients: In a separate bowl, whisk together the warm milk, eggs, and apple cider vinegar.
+Create the Dough: Pour the wet ingredients into the dry ingredients and mix until a thick, sticky batter forms. Do not be alarmed by the consistency; this is normal for enriched doughs.
+Shape the Buns: Line a baking sheet with parchment paper. Using oiled hands, scoop out portions of the dough and shape them into rough balls. Place them on the prepared baking sheet, leaving enough space between each bun. See video below. 
+Proofing: Cover the buns with a cling warp and let them rise in a warm place for about 45 minutes to 1 hour, or until doubled in size.
+Prepare for Baking: Preheat your oven to 200°C (390°F). In a small bowl, whisk together the beaten egg for the egg wash.
+Egg Wash and Sprinkle: Brush the risen buns with the egg wash and sprinkle with sesame seeds, if desired.
+Bake to Perfection: Bake the buns for 25-30 minutes, or until golden brown and cooked through.
+Add a Final Touch: Once out of the oven, brush the warm buns with melted butter for added richness and shine.
+Serve and Enjoy: Let the buns cool slightly before serving. These buns are perfect for burgers, sandwiches, or simply enjoyed on their own.
 
 
-Notes and Technical Reports :
-
-On the Connection Between Riemann Hypothesis and a Special Class of Neural Networks . (2023, arXiv). Souﬁane
-Hayou.
-
-On the Overestimation of the Largest Eigenvalue of a Covariance Matrix . (2017, Bloomberg). Souﬁane Hayou.
-
-Cleaning the Correlation Matrix with a Denoising AutoEncoder . (2017, Bloomberg). Souﬁane Hayou.
-Academic Services
-
-
-{Reviewing for conferences: NeurIPS, ICML, ICLR, AISTATS, UAI.
-{Reviewing for journals: Journal of Machine Learning Research, Transactions on Machine Learning Research,Journal of Computational and Graphical Statistics, Bernoulli.
-{Co-organizer: Machine Learning and its Applications (2022, Institute for Mathematical Science (NUS) and
-Simons Institute for the Theory of Computing), Deep learning reading group (2018-2020, Oxford statistics).
+Storage and Reheating:
+Store leftover buns in an airtight container at room temperature for up to 2 days. To reheat, wrap them in foil and warm them in a preheated oven at 350°F (175°C) for a few minutes.
+Picture
+Tips for Success:
+Use warm liquids to activate the yeast.
+Don't be afraid of a sticky dough; this is typical for enriched doughs.
+Let the buns rise in a warm, draft-free environment for optimal results.
+Brush with melted butter after baking for a soft and shiny crust.​
 
 
-Selected Talks
+​Enjoy your homemade gluten-free brioche burger buns! They're the perfect foundation for your favorite burger creations.
+0 Comments
+Gluten-Free Pear Tatin: Easy Upside-Down Cake Recipe
+21/7/20240 Comments
+ 
+Picture
+A Gluten-Free Twist on a French Classic: Pear Cake Tatin
 
-{August 2024: Nvidia, San Francisco (Invited talk).
-{May 2024: ThinkAI Hackathon, UM6P , Morocco (Invited talk).
-{March 2024: AI Seminar, Uber, San Francisco (Invited talk).
-{February 2024: AI Seminar, MBZUAI, Abu Dhabi (Invited talk).
-{October 2023: MoDL Seminar, Simons Institute, UC Berkeley (Invited talk).
-{June 2023: FLAIR Seminar, EPFL, Switzerland (Invited talk).
-{May 2023: Morocco AI Webinar (Invited talk).
-{March 2023: Nvidia Research, Hong Kong (Invited talk).
-{February 2023: Rising Stars in AI Symposium. KAUST, Saudi Arabia (Invited talk).
-{February 2023: AI Seminar at TII, Abu Dhabi (Invited talk).
-{January 2023: One World Seminar Series on the Mathematics of Machine Learning (Invited talk).
-{December 2022: Computational and Methodological Statistics (CMStatistics 2022), London (Invited talk).
-{November 2022: Rough Paths Seminar, The Alan Turing Institute, London (Invited talk).
-{September 2022: 3rd Symposium on Machine Learning and Dynamical Systems, Fields Institute, Toronto
-(Invited talk).
-{May 2022: Abu Dhabi Stochastics Seminar, Department of Mathematics, NYU Abu Dhabi (Invited talk).
-{Feb 2022: CDSML Seminar Series, National University of Singapore (Invited talk).
-{Dec 2021: Seminar Series, Department of Statistics, University of Toronto (Invited talk).
-{Dec 2021: Spotlight talk at NeurIPS ICBINB workshop.
-{Dec 2020: Department of Mathematics, National University of Singapore (Invited talk).
-{Nov 2020: Department of Statistics, University of Oxford (Invited talk).
+The Tarte Tatin, a rustic French dessert featuring caramelized apples and a buttery pastry crust, has captivated palates for centuries. This iconic upside-down cake boasts a delightful juxtaposition of textures: a tender, slightly caramelized crust topped with soft, melt-in-your-mouth apples. But what if you're gluten-free? Fear not, baking enthusiasts! This recipe transforms the beloved Tarte Tatin into a stunning Pear Cake Tatin, offering a gluten-free rendition that retains all the flavor and charm of the original.
+
+Pears, with their naturally sweet and juicy flesh, are arguably even more forgiving than apples when it comes to caramelization. Their delicate flavor complements the buttery sweetness of the caramelized base perfectly, and their soft texture pairs beautifully with the tender gluten-free cake batter.
+
+This recipe utilizes a carefully chosen blend of gluten-free flours, including rice or millet flour, cornstarch, corn flour, and almond flour. This combination ensures a light and airy cake that holds its shape while baking. Additionally, xanthan gum acts as a binder, mimicking the gluten structure found in traditional wheat flour.
+
+​So, are you ready to embark on a delightful gluten-free baking adventure? With just a few simple steps, you can create a showstopping Pear Cake Tatin that's sure to impress family and friends alike!
+Picture
+Ingredients: 
+
+​For the Vanilla Cake Batter:
+130 g Rice flour or Millet flour (can be substituted with a cup for cup gluten-free flour blend)
+80 g Cornstarch or Tapioca starch or Potato starch
+50 g Corn flour
+40 g Almond flour, super finely milled
+150 g Softened Butter
+150 g Sugar of your choice (granulated, coconut, or a blend)
+3 Eggs
+100 ml Milk of choice (dairy, nut-based, or soy)
+2 tsp Vanilla extract
+2 tsp Baking powder
+½ tsp Xanthan gum
+Pinch of salt
+
+For the Caramelized Pear Layer:
+50 g Brown sugar
+50 g Butter
+2-3 Medium-sized pears, peeled
+20 g Extra brown sugar for dusting the pears
+
+Instructions:
+Preheat your oven to 180°C (350°F).
+Prepare the Cake Batter: In a large bowl, whisk together all the dry ingredients: rice flour, cornstarch, corn flour, almond flour, baking powder, xanthan gum, and salt.
+Cream the Butter and Sugar: In a separate bowl, cream together the softened butter and sugar until light and fluffy. Beat in the eggs one at a time, followed by the vanilla extract and milk.
+Combine Wet and Dry Ingredients: Add the wet ingredients to the dry ingredients, mixing until just combined. Be careful not to overmix.
+Prepare the Baking Dish: Butter a round baking dish (approximately 30-40 cm in diameter). Line the bottom of the dish with parchment paper for easier removal later.
+Caramelize the Sugar and Butter: In a saucepan over medium heat, melt together the 50g of brown sugar and 50g of butter until it becomes a golden brown liquid. Do not overcook, as it can become bitter.
+Arrange the Pears: Pour the hot caramelized sugar mixture into the prepared baking dish. While the caramel is still warm, arrange the peeled pears decoratively over the bottom of the dish. You can slice them thinly lengthwise or cut them into thin wedges.
+Sprinkle with Sugar: Lightly dust the arranged pears with the additional 20g of brown sugar.
+Pour the Cake Batter: Carefully pour the prepared cake batter over the pears and caramelized base. Ensure the batter covers the pears evenly.
+Bake the Cake Tatin: Bake the cake tatin in the preheated oven at 180°C (350°F) for 30-40 minutes, or until a toothpick inserted into the center comes out clean.
+Cool and Flip: Let the cake cool completely in the baking dish before attempting to flip it. This allows the caramel to set and prevents the cake from falling apart.
+The Big Reveal!: Once cool, carefully place a serving plate over the baking dish and, with a swift motion, flip the cake upside down. Gently remove the baking dish and peel away the parchment paper to reveal the beautiful caramelized pear layer. Enjoy!
 
 
-Teaching
 
-Lecturer
+​Serving Suggestions:
+A Touch of Elegance: For a touch of elegance, dust the cake with powdered sugar before serving.
+Whipped Cream Delight: A dollop of whipped cream or vanilla ice cream adds a delightful creamy contrast to the caramelized pears and the cake.
+Warm Vanilla Sauce: For an extra decadent experience, drizzle the cake with a warm vanilla sauce.
 
-Principles of Machine Learning (DSA5105, graduate level, 100+ enrolled students)
-Department of Mathematics, NUS Semester 1, 2021-2022 &2022-2023
-Advanced Topics in Machine Learning (DSA5202, graduate)
-Department of Mathematics, NUS Semester 2, 2021-2022 &2022-2023
-Class Tutor and Teaching Assistant
-Advanced Simulation Methods (SC5, undergraduate)
-Department of Statistics, University of Oxford Hilary term, 2019-2020
-Bayesian Inference and MCMC methods (SC7, graduate)
-Department of Statistics, University of Oxford Hilary term, 2018-2019
-Other Professional Experience
-G-Research London, UK
-Quantitative Research Intern July 2019 – September 2019
-{Trained a neural network model to better estimate the correlation matrix
-{Built a neural network model for robust portfolio optimizationBloomberg LP New York, USA
-Quantitative Research Intern March 2017 – August 2017
-{Showed (provably) that the empirical correlation matrix overestimates the largest
-eigenvalue as the dimension of the problem grows (supervised by Bruno Dupire)
-{Built a Denoising Autoencoder model to ‘clean’ the spectrum of the correlation matrix
-J.P . Morgan London, UK
-Quantitative Research Intern April 2016 – September 2016
-{Calibrated a Stochastic model for interest rate products
-{Designed an Initial Margin pricer for interest rate swaps
-Kantox Barcelona, Spain
-Quantitative Research Intern June 2015 – September 2015
-{Optimized Margin requirements for FX forwards, a known ﬁnancial derivative
-widely traded in the FX market
-SNECMA Paris, France
-Part-time Research Intern September 2014 – April 2015
-{Optimized engine storage facilities using Queuing theory
-(SNECMA is a leading aircraft engine manufacturer)
-Technical Skills
-Coding
-{Python packages: Utils (Numpy, Scipy, Pandas, Seaborn etc.)
-{Deep Learning: PyTorch (6+ years), Tensorﬂow (4+ years), HuggingFace Transformers (2+ years), LangChain
-(1+ years)
-{Cloud Computing: AWS, Google Cloud
-{Distributed Training: Accelerate (HuggingFace)
-Languages
-{Moroccan: native
-{Arabic: native{French: bilingual
-{English: ﬂuent{Spanish: beginner
+Tips for Success:
+Use Ripe Pears: Ripe pears will caramelize beautifully and have a more intense flavor. However, avoid pears that are too soft, as they can break down during baking.
+Don't Overmix the Batter: Overmixing the cake batter can result in a tough cake. Mix just until the ingredients are combined.
+Let it Cool Completely: Allowing the cake to cool completely before flipping is crucial. This ensures the caramel sets and prevents the cake from breaking apart.
+Use a Springform Pan (Optional): For easier removal, consider using a springform pan. Line the bottom with parchment paper and grease the sides.
+
+Storing and Reheating:
+Store at Room Temperature: This cake is best enjoyed fresh. However, you can store leftovers at room temperature for up to 2 days, covered loosely with plastic wrap.
+Reheating: Reheat individual slices in the microwave for a few seconds until slightly warmed through. Alternatively, reheat the entire cake in a preheated oven at 150°C (300°F) for 10-15 minutes, or until warmed through.
+
+This Gluten-Free Pear Cake Tatin is a testament to the versatility of gluten-free baking. It offers a delicious and visually stunning dessert that rivals its traditional counterpart. With its light and airy cake, beautifully caramelized pears, and simple yet elegant presentation, this cake is sure to impress anyone who tries it. So next time you're craving a delicious gluten-free dessert, give this recipe a try! I encourage you to experiment and personalize this recipe. Feel free to use different types of pears, such as Bartlett or Bosc. You can also substitute the brown sugar with a different sweetener, like maple syrup or honey. No matter how you choose to make it, this Gluten-Free Pear Cake Tatin is sure to be a delightful addition to your gluten-free baking repertoire.
+0 Comments
+Gluten Free Italian Ciabatta Bread
+14/7/20240 Comments
+ 
+Picture
+Ciabatta: A Gluten-Free Tribute to Italy 🇮🇹
+
+Ciabatta, the iconic Italian bread renowned for its airy, open crumb and chewy crust, has captivated bread lovers worldwide. While traditionally made with wheat flour, this gluten-free adaptation aims to capture the essence of this beloved bread, offering a taste of Italy without compromising dietary needs.
+
+Hailing from the Lombardy region of Italy, ciabatta translates to "slipper" in English, a fitting name for its characteristic flat, oval shape. Traditionally, ciabatta is made with a high hydration dough, allowing for the development of large air pockets that contribute to its distinctive texture. While gluten plays a crucial role in the structure of traditional ciabatta, this gluten-free version relies on the careful balance of different flours and the addition of psyllium husk to achieve a similar result. The combination of rice flour, tapioca starch, and oat flour provides a sturdy foundation for the dough, while psyllium husk acts as a binding agent, helping to create a cohesive structure. The dough's high hydration level ensures a moist and chewy crumb, reminiscent of the original.
+
+​So, gather your ingredients and embark on a culinary journey to Italy, gluten-free style!
+Picture
+Ingredients (for 6 Ciabatta Rolls):
+Wet Ingredients:
+400 ml Warm Water (around 100°F/38°C)
+15 g Olive Oil
+12 g Apple Cider Vinegar
+Dry Ingredients:
+15 g Psyllium Husk Powder
+130 g Rice Flour
+125 g Tapioca Starch (or Potato Starch, Corn Starch)
+90 g Oat Flour
+15 g Granulated Sugar
+9 g Instant Yeast
+9 g Salt
+Equipment:
+Large Mixing Bowl
+Baking Sheet
+Parchment Paper
+
+Instructions:
+Combine Dry Ingredients: In a large mixing bowl, whisk together the psyllium, rice flour, tapioca starch, oat flour, sugar, instant yeast, and salt.
+Create the Dough: Add the water, olive oil, apple cider vinegar to the dry ingredients. Kneed well for 5-7 min until a smooth slightly sticky dough forms.
+Shape the Dough: Turn the dough out onto a generously floured surface, roll it into a rectangle of about 25x20 cm with the help of a rolling pin. Divide your rectangle into 6 roughly equal smaller rectangular pieces. 
+Rise: Place the shaped ciabatta breads bottom side up (so that the side with the flour is facing up for that traditional ciabatta look) on a baking sheet lined with parchment paper, leaving enough space between them. Cover with a clean cloth in a warm place and let them rise for 45 minutes to 1h, or until doubled in size.
+Baking: Preheat your oven to 430°F (220°C). To create steam, spritz the inside of the oven with water or place a tray of ice cubes in the bottom of the oven before baking. Bake the ciabatta breads for 20-25 minutes. 
+Cooling and Enjoying: Let the ciabatta cool completely on a wire rack before slicing and enjoying.​
+
+​Tips for Success:
+Don't be afraid of a sticky dough; this is characteristic of ciabatta.
+Create steam in the oven for a crispy crust.
+Let the ciabatta cool completely before slicing to prevent a gummy texture.
+
+Your homemade gluten-free ciabatta is best enjoyed fresh, with its crisp crust and soft, airy interior. However, if you have leftovers, store them in a paper bag at room temperature for up to two days. To revive the crust, briefly reheat the ciabatta in a preheated oven at 350°F (175°C) for a few minutes. This gluten-free ciabatta is a versatile bread that can be enjoyed in countless ways. Slice it and toast it for breakfast with your favorite jam or avocado. Use it as a base for sandwiches or bruschetta. Or simply savor it on its own, drizzled with olive oil and a sprinkle of sea salt.
+
+Share your creations with me on social media @glutenfreeharmonie. I can't wait to see what you come up with!
+
+​Buon appetito!
+
+0 Comments
+Gluten Free Chocolate Vienna Bread (Baguette Viennoise)
+10/7/20240 Comments
+ 
+Picture
+A Viennese Affair: Baking the Perfect Baguette Viennoise (Gluten-Free!)
+
+Ah, Vienna! The City of Music, waltzes, and of course, delectable pastries. But Vienna's culinary tapestry extends beyond the ornate cakes and decadent chocolates. Enter the Baguette Viennoise, a seemingly simple yet utterly satisfying bread that bridges the gap between a classic French baguette and a soft, enriched loaf.
+This delightful creation boasts a golden crust that yields to a soft, airy interior, sometimes dotted with chocolate chips or studded with raisins. Unlike its namesake, the French baguette, the Baguette Viennoise is enriched with ingredients like eggs and milk, resulting in a richer flavor and a more forgiving texture. It's a breakfast staple in Vienna, enjoyed on its own or slathered with butter and jam.
+
+But what if you can't indulge in gluten? Fear not, baking enthusiasts! This recipe unlocks the magic of the Baguette Viennoise for those who follow a gluten-free diet. By utilizing a carefully crafted blend of gluten-free flours and psyllium husk powder, we can achieve a texture and flavor that rivals the original, all without compromising on dietary needs.
+
+​So, grab your mixing bowls and preheat your oven, because we're about to embark on a delightful journey to Vienna, one delicious Baguette Viennoise at a time!
+
+The Secret Lies in the Dough:
+The key to achieving success in this recipe is the enriched gluten-free dough. Unlike basic gluten-free breads, enriched doughs incorporate ingredients like eggs, milk, and butter, resulting in a richer, more flavorful, and importantly, softer texture. This recipe utilizes a carefully balanced blend of gluten-free flours and psyllium husk powder to mimic the structure and chew of regular wheat flour, while the enriched ingredients create a luxurious mouthfeel that rivals any traditional viennoise.
+Picture
+Ingredients (Makes 10 Mini Viennoise au Chocolat):
+
+Dry Ingredients:
+19 g Psyllium Husk
+165 g Tapioca Starch
+140 g Brown Rice Flour
+30 g Oat Flour
+90 g Brown Sugar (or other sugar of your choice)
+9 g Active Dry Yeast
+7 g Baking Powder
+5 g Xanthan Gum
+Pinch of Salt
+Wet Ingredients:
+200 g Warm Water (105°F / 41°C)
+100 ml Warm Milk (105°F / 41°C)
+1 Egg + 1 Egg Yolk
+40 g Melted Butter
+For Brushing:
+1/3 cup Milk
+1 tbsp Honey or Maple Syrup
+1 tsp Cocoa Powder
+25 g Melted Butter (for after baking)
+
+Instructions:
+Gather Your Ingredients: Prepare all your ingredients and preheat your oven to 290°F (143°C).
+Dry Mix Magic: In a large bowl, whisk together all the dry ingredients: psyllium husk, tapioca starch, brown rice flour, oat flour, sugar, yeast, baking powder, xanthan gum, and salt.
+Wet & Combine: In a separate bowl, whisk together the warm water, warm milk, egg, egg yolk, and melted butter.
+Dough Time: Gradually add the wet ingredients to the dry ingredients, mixing until a soft, sticky dough forms. Don't worry about adding too much extra flour, as this can make your viennoise dry. Use a spatula to help bring the dough together.
+Chocolatey Delight: Once the dough is well combined, gently fold in your chocolate chips (or other desired fillings like raisins).
+A Gentle Knead: Lightly flour a clean surface and transfer the dough. With floured hands, gently knead the dough for a minute or two, just until it forms a cohesive ball and loses some of its stickiness. Don't overwork the dough or incorporate too much flour.
+Shaping Up: Shape the dough into a long log. Divide the log into 10 equal pieces using a knife or dough scraper.
+Forming the Baguettes: Take one dough piece at a time and flatten it slightly with your hands. Roll it up tightly into a log shape, ensuring the chocolate chips are evenly distributed within. Seal the edges by pinching the seam shut. Place the shaped viennoise seam-side down on a baking sheet lined with parchment paper. Repeat for all dough pieces.
+Rise: Cover the baking sheet with plastic wrap and let the viennoise rise in a warm spot for 1-1.5 hours, or until doubled in size.
+Brushing: In a small bowl, whisk together the milk, honey or maple syrup, and cocoa powder. Once the baguettes have risen, gently brush the tops with the mixture for a beautiful golden brown color.
+Scoring & Baking: Using a sharp knife or a baking lame (a special tool for scoring bread), carefully make three diagonal incisions on the top of each viennoise. Bake for 15-20 minutes, or until golden brown.
+Golden Perfection: Remove the viennoises from the oven and brush them immediately with the melted butter you prepared earlier. This final brush adds a touch of shine and creates a softer crust.
+Enjoy!​​​
+
+
+Storage & Reheating:
+These vienna baguettes are best enjoyed fresh, but they can be stored for up to 2 days at room temperature in an airtight container.
+To reheat, preheat your oven to 350°F (175°C). Wrap the viennoise in aluminum foil and heat for 5-7 minutes, or until warmed through.
+
+Tips for Success:
+Warm Ingredients: Ensure your water and milk are warm but not hot (around 105°F / 41°C) to activate the yeast.
+Scoring Tip: Don't cut too deeply when scoring – a slight incision is enough.
+
+Enjoy these delicious Gluten-Free Viennoises au Chocolat! They're a perfect treat for breakfast, a delightful snack, or even a special dessert.
+
+Feel free to experiment with different fillings! Chopped nuts, cinnamon and sugar, or even a fruit jam filling would be fantastic alternatives.
+
+Share Your Viennese Creation!
+Once you've mastered the art of baking these Gluten-Free Baguette Viennoises, I'd love to see your creations! Share your beautiful bakes and tag me on social media using @glutenfreeharmonie. Let's celebrate the joy of baking and the delicious possibilities that gluten-free doesn't have to limit.
+
+I can't wait to see your Viennese masterpieces! Now, grab your ingredients, get ready to bake, and experience a taste of Vienna right from your own kitchen.
+0 Comments
+Kebab Maghdour - Moroccan Tender Meat Stew (45 min Dish)
+8/7/20240 Comments
+ 
+Picture
+​A Taste of Morocco: Kabab Maghdour - The "Betrayed Kebab" Stew
+
+Embark on a culinary journey to Morocco with Kabab Maghdour, a deceptively simple yet incredibly flavorful stew. Literally translating to "Betrayed Kebab," this dish offers a delightful twist on the classic grilled kebab. Unlike its skewered cousin, Kabab Maghdour features tender, cubed meat simmered in a rich and aromatic broth, creating a comforting and satisfying meal.
+
+The origins of the name "Betrayed Kebab" are shrouded in a bit of mystery. Some believe it refers to the fact that the meat isn't grilled but rather stewed. Others suggest it might signify the absence of vegetables, a typical accompaniment to kebabs. Regardless of the origin story, Kabab Maghdour remains a beloved staple in Moroccan households, cherished for its simplicity and incredible flavor.
+​
+Here's the beauty of Kabab Maghdour: it's a weeknight lifesaver! This recipe requires minimal prep and utilizes a pressure cooker to deliver a melt-in-your-mouth meat dish in under 45 minutes. No soaking, marinating, or extensive chopping is needed. Simply throw all the ingredients together, and your pressure cooker does the rest of the work, transforming them into a fragrant and delicious stew.
+So, ditch the takeout menus and embrace the convenience of Kabab Maghdour. It's perfect for busy weeknights, meal prepping, or simply satisfying a craving for authentic Moroccan flavors.
+Picture
+Kabab Maghdour: A Quick & Easy Moroccan Stew Recipe
+
+This recipe yields approximately 4-5 servings.
+
+Ingredients:
+500 g Diced Chuck Roast (or your preferred cut, preferably lean)
+100 g Butter
+50 g Olive Oil (or vegetable oil)
+2 tbsp Paprika
+1.5 tbsp Cumin
+Salt & Black Pepper (to taste)
+2 Beef Stock Cubes
+2 tbsp Tomato Paste
+1.5 cups Water
+Equipment:
+Pressure Cooker
+Large Spoon
+Serving Platter
+Instructions:
+Prep is a Breeze: The beauty of this recipe lies in its simplicity. There's no need for extensive chopping or prep work. Simply dice your chosen cut of meat into bite-sized pieces. Leaner cuts are ideal for this stew, as excess fat can make the dish greasy.
+Flavor Fusion in the Pot: In your pressure cooker, combine the diced meat with all the remaining ingredients: butter, olive oil, paprika, cumin, salt, pepper, stock cubes, tomato paste, and water.
+Pressure Cooker Magic: Close the pressure cooker securely and ensure the pressure release valve is set to "seal." Here's the key to perfect Kabab Maghdour:
+Cook on high pressure for 30 minutes after the pressure valve reaches full pressure (indicated by a whistle or jiggle).
+After 30 minutes, carefully release the pressure using the quick release method according to your pressure cooker's instructions.
+Second Whistle for Tenderness: Once the pressure is released, open the pot and check the meat's tenderness. If it's still a bit firm, simply close the pressure cooker again, bring it back up to pressure, and cook for another 15-20 minutes (one additional whistle).
+This extra cooking time ensures the meat is melt-in-your-mouth tender and allows the sauce to thicken further.
+Serving Up Moroccan Magic: Once your Kabab Maghdour is cooked through and the sauce has reached your desired consistency, it's ready to serve! Spoon the stew onto a bed of fluffy white rice or other. Alternatively, enjoy it with some warm, crusty bread for dipping into the flavorful sauce.​
+
+Tips for a Delicious Kabab Maghdour:
+Spice it Up: For a touch of heat, add a pinch of cayenne pepper or a teaspoon of harissa paste along with the other spices.
+Garnish Delight: For a touch of Moroccan flair, garnish your Kabab Maghdour with chopped fresh cilantro or parsley.
+Leftover Love: This stew reheats beautifully. Store any leftovers in an airtight container in the refrigerator for up to 5 days.
+
+​Embrace the Simplicity and Savor the Flavor:
+Kabab Maghdour is a testament to the power of simple ingredients and bold flavors. With minimal prep and the magic of a pressure cooker, you can create a restaurant-worthy Moroccan stew in less than an hour. So, gather your ingredients, turn on your pressure cooker, and embark on a culinary adventure to Morocco with this delightful Kabab Maghdour recipe!
+0 Comments
+The Best Gluten free Filled Bomboloni (Pillowy Doughnuts)
+6/7/20240 Comments
+ 
+Picture
+​A Taste of Summer: Gluten-Free Bomboloni (Italian Doughnuts) Filled with Sunshine ☀️
+
+Remember those carefree summer days spent on the beach, the warm sun on your skin, and the enticing cries of "Beignets chauds!" (meaning "Hot doughnuts!") echoing through the air? These light and fluffy Moroccan doughnuts, traditionally enjoyed during the summer months, hold a special place in many childhood memories. But what if you're gluten-free? Fear not! This recipe unlocks the secrets to creating delectable gluten-free bomboloni, the Italian cousin of the beignet, that are just as soft, pillowy, and bursting with flavor. Filled with your choice of jams and chocolate, and coated in a delightful cinnamon sugar mixture, these homemade doughnuts are the perfect way to bring back those summer vibes, gluten-free style!
+
+This recipe yields approximately 8 delectable bomboloni.
+
+Ingredients:
+Dry Ingredients:
+140 g Brown Rice Flour
+155 g Corn Starch (or Potato Starch, Tapioca Starch)
+30 g Oat Flour
+9 g Psyllium Husk Powder
+40 g Sugar
+9 g Instant Yeast
+5 g Xanthan Gum
+5 g Salt
+9 g Baking Powder
+Wet Ingredients:
+100 g Milk (dairy or plant-based)
+150 g Water
+45 g Butter, softened
+1 Large Egg
+For Frying:
+High smoke point oil (Canola, Sunflower, or Refined Coconut Oil)
+For Rolling & Filling Doughnuts:
+80 g Sugar
+1 tbsp Cinnamon
+Your favorite Jams (e.g., apricot, strawberry)
+Melted Chocolate (optional)
+Equipment:
+Mixing Bowls (large & small)
+Electric Mixer (optional, but helpful)
+Whisk
+Parchment Paper
+Sharp Knife
+Piping Bag or Syringe (optional, for filling)
+Deep Fryer or Large Pot
+Slotted Spoon
+Paper Towels​
+Picture
+Step-by-Step Guide to Gluten-Free Bomboloni Bliss:
+Gather Your Dry Ingredients: In a large mixing bowl, whisk together the brown rice flour, corn starch, oat flour, psyllium husk powder, sugar, instant yeast, xanthan gum, salt, and baking powder.
+Add the Wet Ones: Add the milk and water to the dry ingredients along with the egg and butter. 
+Mix it Up: Using an electric mixer (optional) or a sturdy spoon, mix all the ingredients together until a soft, slightly sticky dough forms. Don't worry, this stickiness is normal!
+Chilling Time: Transfer the dough to a clean bowl, cover it with plastic wrap, and refrigerate for at least 1 hour, or up to overnight. Chilling allows the flours to absorb the liquids fully, resulting in a less sticky dough for easier handling later.
+Divide & Conquer: After chilling, remove the dough from the refrigerator and place it on a lightly floured surface. Divide the dough into 8 equal pieces.
+Shape the Doughnuts: Take one piece of dough and gently flatten it gently into a circle about 1/4-inch thick. Take the edges and bring them towards the center like if you have a filling you are trying to enclose. Seal all the edged in the middle, then flip your doughnut ball and, with with your hand enclosing the doughnut make circular movements so as to create the perfect and smooth dough ball. Repeat for the rest of the dough balls. 
+Parchment Paper Magic: Cut squares of parchment paper large enough to comfortably hold each doughnut. Place each shaped doughnut on a separate parchment paper square. This will make frying and handling much easier.
+Second Rise: Cover the doughnuts with a clean kitchen towel and let them rise in a warm place for 1-1.5 hours, or until doubled in size.
+Cinnamon Sugar Symphony: While the doughnuts rise, prepare your cinnamon sugar coating by mixing the sugar and cinnamon in a shallow bowl.
+Heating Up the Oil: Fill a deep fryer or large pot with enough high smoke point oil (like canola, sunflower, or refined coconut oil) to reach a depth of at least 3 inches. Heat the oil over medium heat to around 350°F (175°C). You can check the oil temperature with a kitchen thermometer for accuracy. 
+The magic of parchment paper: Carefully lift a doughnut (with its parchment paper square) and gently slide it into the hot oil. The parchment paper will detach easily once the doughnut starts to cook. Don't overcrowd the pot: Fry the doughnuts in batches of 2-3 at a time, depending on the size of your pot. Overcrowding can lower the oil temperature and result in greasy doughnuts.
+Golden Perfection: Fry the doughnuts for 2-3 minutes per side, or until they are golden brown all over.
+Out they come!: Once golden brown, use a slotted spoon to remove the doughnuts from the oil and transfer them to a paper towel-lined plate to drain any excess oil.
+Cinnamon Sugar Bliss: While the doughnuts are still warm, but not too hot to handle, roll them one at a time in the cinnamon sugar mixture, coating them generously.
+Cooling Down: Let the doughnuts cool completely on a wire rack before filling them.
+Filling Fun: Time to unleash your creativity! You can fill your bomboloni with your favorite jams (apricot, strawberry, etc.), melted chocolate, or even a combination of both.
+Here's how to fill them neatly: Use a sharp knife to make a small incision on the side of each cooled doughnut. Fill a piping bag or syringe with your chosen filling and carefully pipe it into the doughnut through the incision.
+Now, the moment you've been waiting for! Bite into your homemade gluten-free bomboloni and savor the soft, pillowy texture bursting with flavor. The combination of the fluffy dough, the sweet cinnamon sugar coating, and the delicious filling is a taste of summer magic, no matter the season
+
+
+Tips for Success:
+Use room temperature ingredients: This ensures even mixing and a smooth dough.
+​The magic of chilling: Chilling the dough is crucial for a less sticky dough and easier handling.
+Oil temperature matters: Ensure the oil is hot enough to fry the doughnuts properly, but not too hot to burn them.
+Don't overcrowd the pot: This will prevent even cooking and lower the oil temperature.
+
+Enjoy these delicious gluten-free bomboloni and share them with your loved ones!
+Picture
+There you have it! These delightful gluten-free bomboloni are a delicious way to bring back those summer vibes, no matter the season. Filled with your favorite jams, chocolate, or a delightful combination of both, and coated in a sweet cinnamon sugar symphony, they're a treat for the taste buds and a testament to the magic of homemade baking.
+
+Storage and Reheating Tips:
+These bomboloni are best enjoyed fresh, but you can store them for later if needed. Here's how:
+Store at room temperature: Once the doughnuts have cooled completely, store them in an airtight container at room temperature for up to 2 days. The cinnamon sugar coating will soften slightly, but the doughnuts will still be delicious.
+Fridge for longer storage: For longer storage (up to 3 days), place the cooled doughnuts in an airtight container and store them in the refrigerator. The texture will become a bit firmer, but they can be easily revived.
+Reheating magic: To reheat your stored bomboloni, preheat your oven to 350°F (175°C). Place the doughnuts on a baking sheet and warm them for 5-7 minutes, or until slightly warmed through. This will revive their softness and make the cinnamon sugar coating a bit crispier.
+
+Feel free to experiment with different fillings! Nutella, cream, or even a sprinkle of powdered sugar are all fantastic options.
+
+So, the next time you're craving a sweet treat, whip up a batch of these gluten-free bomboloni and share them with your loved ones. They're guaranteed to bring back happy memories and create new ones!
+
+Don't forget to share your creations with me on social media using #glutenfreeharmonie and tag me @glutenfreeharmonie! I love seeing your baking adventures.
+
+I hope this recipe unlocks a world of delicious gluten-free possibilities for you. Happy Baking!
+0 Comments
+Gluten Free Mixed-Berries Muffins (Fluffy & Moist)
+30/6/20240 Comments
+ 
+Picture
+​Berry Blast! Gluten-Free Muffins So Good, You'll Forget They're Gluten Free (Yes, Really!) 🫐
+
+Calling all gluten-free bakers (and berry lovers)! Craving a delicious and satisfying treat without the gluten? Look no further than these incredible Gluten-Free Berry Muffins! Packed with fresh or frozen berries, these muffins are bursting with flavor, soft and fluffy on the inside, and have a slightly crisp top – a delightful textural contrast in every bite. This recipe is also surprisingly easy to make, using simple ingredients and requiring minimal prep time.
+
+Here's what makes these muffins special:
+Gluten-Free & Delicious: Enjoy the taste of fluffy muffins without the gluten! This recipe utilizes a unique blend of flours for a perfect texture.
+Berrylicious Burst: Customize your muffins with your favorite fresh or frozen berries (blueberries, raspberries, strawberries – the choice is yours!).
+Moist & Flavorful: Almond flour adds a touch of richness and moisture to the muffins, making them extra delightful.
+Easy to Make: This recipe requires no fancy equipment and comes together quickly, perfect for busy mornings or afternoon cravings.
+
+Ready to bake? Let's gather your ingredients:
+
+Ingredients (makes 12 muffins):
+Dry Ingredients:
+150 g Rice Flour (or Oat Flour)
+100 g Tapioca Starch (or another starch like Potato Starch or Arrowroot Starch)
+60 g Finely Milled Corn Flour
+60 g Almond Flour (Optional, but highly recommended!)
+140 g Sugar (Granulated, Coconut Sugar, or Brown Sugar)
+2 tsp Baking Powder
+1 tsp Baking Soda
+1 tsp Xanthan Gum
+½ tsp Salt
+Wet Ingredients:
+140 g Softened Butter
+140 ml Milk (dairy or non-dairy)
+140 g Greek Yogurt (or regular yogurt)
+2 Eggs
+2 tsp Vanilla Extract
+Berrylicious Mix-Ins:
+200 g Fresh or Frozen Berries (blueberries, raspberries, strawberries, or a mix!)
+Equipment:
+Mixing Bowls (one large, one small)
+Whisk
+Muffin Tin
+Muffin Liners
+Cupcake Scoop (optional)
+
+Step-by-Step Guide to Baking Gluten-Free Berry Bliss:
+Preheat the Oven: Get your oven nice and hot by preheating it to 180°C (350°F).
+Prepare the Muffin Tin: Line your muffin tin with muffin liners.
+Whisk the Dry Ingredients: In a large mixing bowl, whisk together all the dry ingredients: rice flour (or oat flour), tapioca starch, corn flour, almond flour (if using), sugar, baking powder, baking soda, xanthan gum, and salt. Add the butter to your dry ingredients and whisk it into the flours until you get a crumbly texture. 
+Wet Ingredients: Add the milk, yogurt, eggs, and vanilla extract to a separate bowl and whisk until well combined.
+Dry Meets Wet: Now, it's time to combine the wet and dry ingredients! Gradually add the wet ingredients to the dry ingredients, whisking gently until just combined. Don't overmix!
+Berry Magic: Gently fold in your chosen berries using a spoon or spatula. Be careful not to crush them.
+Fill & Bake: Using a spoon or cupcake scoop, portion the batter evenly into your prepared muffin cups. Fill them to the top!
+Baking Time!: Bake your muffins for 20-25 minutes, or until a toothpick inserted into the center comes out clean. The baking time may vary slightly depending on if you're using fresh or frozen berries. Fresh berries will bake a bit faster.
+Cool & Enjoy! Remove the muffins from the oven and let them cool in the muffin tin for a few minutes before transferring them to a wire rack to cool completely.​
+
+
+
+Tips for Success:
+Use room temperature ingredients: This ensures even mixing and a smooth batter.
+Don't overmix: Overmixing can lead to tough muffins. Mix until just combined, then stop!
+Fresh vs. Frozen Berries: Fresh berries tend to be more delicate and may bake slightly faster. Frozen berries can release more liquid, so keep an eye on the muffins as they bake.
+Customize it! Add a sprinkle of chopped nuts or a drizzle of melted chocolate on top for an extra flavor
+Picture
+There you have it! These Gluten-Free Berry Muffins are a delicious and satisfying way to enjoy a treat without the gluten. Bursting with flavor and boasting a delightful texture, they're perfect for breakfast, a midday snack, or even a sweet after-dinner treat. So, the next time you're craving something delicious and gluten-free, whip up a batch of these muffins! They're surprisingly easy to make and sure to become a new favorite.
+
+Feel free to experiment with different berry combinations or add a sprinkle of chopped nuts or a drizzle of melted chocolate for an extra flavor twist.
+
+We hope you enjoy this recipe!
+
+​Don't forget to share your creations with us on social media using #glutenfreeharmonie and tag us @glutenfreeharmonie! We love seeing your baking adventures. 

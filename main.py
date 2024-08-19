@@ -7,8 +7,8 @@ from groq import Groq
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="LLAMA 3.1. Chat",
-    page_icon="🦙",
+    page_title="SH's Virtual Assistant",
+    page_icon="🤖",
     layout="centered"
 )
 
@@ -30,11 +30,17 @@ if "chat_history" not in st.session_state:
 
 
 # streamlit page title
-st.title("Chat with virtual Me")
+#st.title("SH's Virtual Assistant :sunglasses:")
+st.subheader("SH's Virtual Assistant 🤖 :sunglasses:", divider="gray")
+st.subheader("", divider=False)
 
 # display chat history
 for message in st.session_state.chat_history:
-    with st.chat_message(message["role"]):
+    if message["role"]=='user':
+        av = "💬"
+    else:
+        av = "🤖"
+    with st.chat_message(message["role"],avatar=av):
         st.markdown(message["content"])
 
 
@@ -55,12 +61,12 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 if user_prompt:
 
-    st.chat_message("user").markdown(user_prompt)
+    st.chat_message("user", avatar="💬").markdown(user_prompt)
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     # sens user's message to the LLM and get a response
     messages = [
-        {"role": "system", "content": "You are the virtual version of Soufiane Hayou, and you have access to the following info "+knowledge},
+        {"role": "system", "content": "You are the virtual assistant of Soufiane Hayou, you live in his realm, and you have access to the following info :\n"+knowledge},
         *st.session_state.chat_history
     ]
 
@@ -73,6 +79,6 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "assistant", "content": assistant_response})
 
     # display the LLM's response
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar="🤖"):
         st.markdown(assistant_response)
 

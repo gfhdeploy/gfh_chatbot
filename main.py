@@ -43,7 +43,7 @@ def load_and_process_documents():
             documents.extend(loader.load())
     
     # Split documents
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
     texts = text_splitter.split_documents(documents)
     
     # Use a smaller, faster model for embeddings
@@ -113,7 +113,9 @@ if user_prompt:
     You are an AI agent assisting the visitors of Gluten Free Harmonie, a website specialized in Gluten Free recipes with a Moroccan-Mediterranean inspiration. You live in the Gluten Free realm. Use the following context to answer the user's question:\n
     '''
     
-    full_prompt = f"{instruction}\n\nContext: {context}\n\nUser: {user_prompt}\n\nAssistant:"
+    # Include chat history in the prompt
+    chat_history = "\n".join([f"{msg['role'].capitalize()}: {msg['content']}" for msg in st.session_state.chat_history[:-1]])
+    full_prompt = f"{instruction}\n\nContext: {context}\n\nChat History:\n{chat_history}\n\nUser: {user_prompt}\n\nAssistant:"
 
     # Get response from Gemini API
     response = model.generate_content(full_prompt)

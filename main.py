@@ -1,10 +1,10 @@
 import os
 import streamlit as st
-import google.generativeai as genai
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from groq import Groq
 import time
 import hashlib
 
@@ -22,9 +22,8 @@ st.markdown("""
 </script>
 """, unsafe_allow_html=True)
 
-# Configure Google Gemini API
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Configure Groq API
+client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 # Custom hash function for caching
 def hash_documents(docs):
@@ -108,19 +107,35 @@ if user_prompt:
     relevant_docs = st.session_state.vectorstore.similarity_search(user_prompt, k=3)
     context = "\n".join([doc.page_content for doc in relevant_docs])
 
-    # Prepare messages for Gemini API
-    instruction = '''
-    You are an AI agent assisting the visitors of Gluten Free Harmonie, a website specialized in Gluten Free recipes with a Moroccan-Mediterranean inspiration. You live in the Gluten Free realm. Use the following context to answer the user's question:\n
-    '''
+    # Prepare messages for Groq API
+    system_message = {
+        "role": "system",
+        "content": '''
+        You are an AI agent assisting the visitors of Gluten Free Harmonie, a website specialized in Gluten Free recipes with a Moroccan-Mediterranean inspiration. You live in the Gluten Free realm. Use the following context to answer the user's question:
+        '''
+    }
     
-    # Include chat history in the prompt
-    chat_history = "\n".join([f"{msg['role'].capitalize()}: {msg['content']}" for msg in st.session_state.chat_history[:-1]])
-    full_prompt = f"{instruction}\n\nContext: {context}\n\nChat History:\n{chat_history}\n\nUser: {user_prompt}\n\nAssistant:"
+    # Prepare the message list
+    messages = [
+        system_message,
+        {"role": "user", "content": f"Context: {context}"},
+    ]
 
-    # Get response from Gemini API
-    response = model.generate_content(full_prompt)
+    # Add chat history
+    messages.extend(st.session_state.chat_history[:-1])
 
-    assistant_response = response.text
+    # Add the current user message
+    messages.append({"role": "user", "content": user_prompt})
+
+    # Get response from Groq API
+    response = client.chat.completions.create(
+        messages=messages,
+        model="Llama-3.1-70b-Versatile",
+        temperature=0.2,
+        max_tokens=1024,
+    )
+
+    assistant_response = response.choices[0].message.content
     st.session_state.chat_history.append({"role": "assistant", "content": assistant_response})
 
     # Display the LLM's response
